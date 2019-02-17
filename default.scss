@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0}
+*{box-sizing: border-box}
+
+.token {
+  color: black;
+  &.selector, &.comment, &.punctuation, &.property, &.function {
+    color: inherit;
+  }
+}
+
+#code {
+  height: 100vh;
+  overflow: scroll;
+}
+
+
